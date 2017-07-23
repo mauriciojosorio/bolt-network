@@ -1,0 +1,198 @@
+html {
+	font-family: 'Oxygen', sans-serif;
+	box-sizing: border-box;
+	background: black;
+}
+
+.supporting {
+	background: url('http://www.blackdiamondscheer.com/wp-content/uploads/2014/04/background1.jpg') no-repeat;
+	background-size: cover;
+}
+
+header {
+	height: 504px;
+	background-color: black;
+	padding: 48px 30px;
+	/*margin-bottom: 30px;*/
+}
+
+#topbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#topcontent {
+	margin-top: 40px;
+}
+
+#topcontent a {
+	text-decoration: none;
+	color: #0393ff;
+	padding: 8px 20px;
+	border: 1px solid #0393ff;
+	border-radius: 2px;
+	position: relative;
+	top: 41px;
+}
+
+#topcontent h1 {
+	color: white;
+}
+
+.form-inline {
+	margin-top: 107px;
+}
+
+.form-control {
+	background-color: black !important;
+	box-shadow: 0;
+	border: 0;
+	border-bottom: 1px solid white;
+	border-radius: 0;
+	color: white;
+	width: 400px !important;
+	margin-right: 20px;
+}
+
+.form-control:hover {
+	border-bottom: 1px solid #0393ff;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-bottom: 1px solid #0393ff;
+}
+
+#topcontent a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+}
+
+#topbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.sign {
+	text-decoration: none;
+	color: #0393ff !important;
+	padding: 8px 20px;
+	border: 1px solid #0393ff;
+	border-radius: 2px;
+}
+
+.search {
+	text-decoration: none;
+	color: #0393ff !important;
+	padding: 8px 20px;
+	border: 1px solid #0393ff;
+	border-radius: 2px;
+	background: black;
+}
+
+.search:hover {
+	text-decoration: none;
+	color: white !important;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+}
+
+.sign:hover {
+	text-decoration: none;
+	color: white !important;
+	background-color: #428bca;
+	border: 1px solid #428bca;
+}
+
+#topbar li {
+	display: inline;
+	margin-right: 10px;
+}
+
+#topbar ul {
+	list-style-type: none;
+}
+
+.piccontainer {
+	margin: 0 200px;
+	text-align: center;
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
+}
+
+.piclarge {
+	display: inline-block;
+	width: 691px;
+	height: 343px;
+	margin: 20px;
+}
+
+.picsmall {
+	display: inline-block;
+	margin: 20px;
+	width: 324px;
+	height: 343px;
+}
+
+.piccontainer img {
+	height: 100%;
+	width: 100%;
+}
+
+.featured {
+	background: url('https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	text-align: center;
+	line-height: 2em;
+	align-items: center;
+}
+
+.featured p {
+	font-size: 18px;
+	color: white;
+}
+
+.featured h2 {
+	color: #0393ff;
+	font-size: 32px;
+}
+
+.featured div {
+	padding-top: 100px;
+}
+
+.footer {
+	height: 300px;
+	background: black;
+}
+
+.footerlinks {
+	display: flex;
+	justify-content: space-around;
+}
+
+.links {
+	margin-top: 60px;
+	float: left !important;
+}
+
+.links h3 {
+	color: white;
+	font-size: 18px;
+}
+
+.footer ul {
+	padding-left: 0;
+}
+
+.footer ul li {
+	list-style-type: none;
+	color: #0393ff;
+	line-height: 1.5em;
+}
